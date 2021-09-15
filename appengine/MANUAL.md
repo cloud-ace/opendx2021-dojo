@@ -72,9 +72,9 @@ gcloud components update
 
 ```bash
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples
-cd python-docs-samples/appengine/standard_python3/hello_world
+cd python-docs-samples/appengine/standard_python3/hello_world/
 pip install -t lib -r requirements.txt
-dev_appserver.py app.yaml
+python3 main.py app.yaml
 ```
 
 すると、例えば次のようなログが流れます。
