@@ -6,7 +6,7 @@ Google App Engine™ (GAE) は、
 Google™  の提供するサービスの1つであり、ウェブアプリケーションを PHP・Python・Java・Go・Node.js・Ruby・C# を使用して開発し、Google のインフラストラクチャ上で実行し、バージョン管理することができるGoogle Cloud Platform のサービスの一つです。
 
 WEB アプリケーションを簡単に公開することができる PaaS （Platform as a Service）モデルのサービスです。
-GAEの進化に伴い、徐々に対応言語が増え、GAEならではの成約も取り除かれ続けています。
+GAEの進化に伴い、徐々に対応言語が増え、GAEならではの制約も取り除かれ続けています。
 
 GAEには `Standard Environment`と`Flexible Environment`の2つが存在します。
 Standard Environmentでは、高負荷で大量のデータを処理する場合でも確実に動作するアプリケーションを簡単に構築し、デプロイできます。
@@ -71,7 +71,7 @@ gcloud components update
 [https://github.com/GoogleCloudPlatform/python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples) をcloneし、該当ディレクトリに移動します。
 
 ```bash
-git glone https://github.com/GoogleCloudPlatform/python-docs-samples
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples
 cd python-docs-samples/appengine/standard_python3/hello_world
 pip install -t lib -r requirements.txt
 dev_appserver.py app.yaml
