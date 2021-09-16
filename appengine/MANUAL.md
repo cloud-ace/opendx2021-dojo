@@ -73,7 +73,7 @@ gcloud components update
 ```bash
 git clone https://github.com/GoogleCloudPlatform/python-docs-samples
 cd python-docs-samples/appengine/standard_python3/hello_world/
-pip install -t lib -r requirements.txt
+pip3 install -t lib -r requirements.txt
 python3 main.py app.yaml
 ```
 
